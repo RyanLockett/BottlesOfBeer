@@ -6,7 +6,7 @@ string numToWord(int num);
 
 int main()
 {
-	string bottle = "";
+	string bottle = " bottles ";
 	for(int i = 99; i > 0; i--)
 	{
 
@@ -18,7 +18,7 @@ int main()
 		else
 				bottle = " bottles ";
 
-			cout << numToWord(i-1) << bottle << "of beer on the wall." << endl << endl; 
+			cout << numToWord(i-1) << bottle << "of beer on the wall." << endl << endl;
 	}
 
 	return 0;
@@ -38,34 +38,34 @@ string numToWord(int num)
 		switch(ones)
 		{
 		case 0:
-			word += "zero"; 
+			word += "zero";
 		 break;
 		case 1:
-			word += "one"; 
+			word += "one";
 		 break;
 		case 2:
-			word += "two"; 
+			word += "two";
 		 break;
 		case 3:
-			word += "three"; 
+			word += "three";
 		 break;
 		case 4:
-			word += "four"; 
+			word += "four";
 		 break;
 		case 5:
-			word += "five"; 
+			word += "five";
 		 break;
 		case 6:
-			word += "six"; 
+			word += "six";
 		 break;
 		case 7:
-			word += "seven"; 
+			word += "seven";
 		 break;
 		case 8:
-			word += "eight"; 
+			word += "eight";
 		 break;
 		case 9:
-			word += "nine"; 
+			word += "nine";
 		 break;
 		}
 	}
@@ -75,13 +75,13 @@ string numToWord(int num)
 		switch(ones)
 		{
 		case 0:
-			word += "ten"; 
+			word += "ten";
 		 break;
 		case 1:
-			word += "eleven"; 
+			word += "eleven";
 		 break;
 		case 2:
-			word += "twelve"; 
+			word += "twelve";
 		 break;
 		case 3:
 			{
@@ -131,28 +131,28 @@ string numToWord(int num)
 		switch(tens)
 		{
 		case 2:
-			word += "twenty "; 
+			word += "twenty ";
 		 break;
 		case 3:
-			word += "thirty "; 
+			word += "thirty ";
 		 break;
 		case 4:
-			word += "fourty "; 
+			word += "fourty ";
 		 break;
 		case 5:
-			word += "fifty "; 
+			word += "fifty ";
 		 break;
 		case 6:
-			word += "sixty "; 
+			word += "sixty ";
 		 break;
 		case 7:
-			word += "seventy "; 
+			word += "seventy ";
 		 break;
 		case 8:
-			word += "eighty "; 
+			word += "eighty ";
 		 break;
 		case 9:
-			word += "ninety "; 
+			word += "ninety ";
 		 break;
 		}
 	}
